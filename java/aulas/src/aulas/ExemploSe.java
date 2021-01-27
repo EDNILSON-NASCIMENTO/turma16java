@@ -30,7 +30,7 @@ public class ExemploSe
 		{
 			System.out.println("O valor é impar");
 		}
-		
+		System.out.println("Fim de programa!!!");
 	}
 
 }
