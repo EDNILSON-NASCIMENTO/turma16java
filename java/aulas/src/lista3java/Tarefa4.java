@@ -21,7 +21,7 @@ public class Tarefa4 {
 			numero = leia.nextInt();
 			if ((numero%3) == 0 && numero != 0 )
 			{
-				somatorio = somatorio+numero;
+				somatorio =  somatorio+numero;
 				contador++;
 			}
 			
@@ -36,10 +36,7 @@ public class Tarefa4 {
 		{
 			System.out.println("Nenhum numero multiplo de 3 foi informado, não temos dados de media!");
 		}
-		
-		
-		
-
+	
 	}
 
 }
