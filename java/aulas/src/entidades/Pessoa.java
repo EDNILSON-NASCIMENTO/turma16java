@@ -2,36 +2,39 @@ package entidades;
 
 public class Pessoa 
 {
-	//atributos
+	//OBJETIVO DA CLASSE -
+	
+	//ATRIBUTOS
 	public String nome;
 	public char sexo;
 	public int anoNascimento;
+	public boolean estaViva;
 	
-	
-	public int idade()
+	//CONSTRUTORES - pedreiros da classe
+	/*
+	public Pessoa(String nome) 
 	{
-		return 2021 - anoNascimento;
+		this.nome = nome;
 	}
-	
-	public void mostraIdade()
+	*/
+		
+	public Pessoa(String nome) 
 	{
-		System.out.println(2021 - anoNascimento);
+		this.nome = nome;
 	}
+
 	
-	public String statusIdade()
-	{
-		int idade;
-		String mensagem;
-		idade = 2021 - anoNascimento;
-		if (idade <18) 
-		{
-			mensagem = "pessoa menor de 18 anos";
-		} else
-		{
-			mensagem = "pessoa maior de 18 anos";
-		}
-		return mensagem;
-	}
+	
+	//*SOBRECARGAS
+
+	//ENCAPSULAMENTO
+
+
+	//METODOS
+	//*SOBRECARGAS
+
+	//OVERHIDE - PARECE NOME DE TRANSFORMER
+	//SOBRECARGA DA SOBRECARGA - SHIT NO LIMITS
 	
 }
 
@@ -39,8 +42,9 @@ public class Pessoa
 //ABSTRAÇÃO
 //DELEGAÇÃO DE RESPOSABILIDADE
 //SEGURANÇA
+//this
 
-
+//ATRIBUTOS
 //CONSTRUTORES
 //*SOBRECARGAS
 

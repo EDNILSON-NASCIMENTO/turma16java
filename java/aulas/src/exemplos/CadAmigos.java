@@ -25,6 +25,7 @@ public class CadAmigos {
 		System.out.println(broder1.statusIdade());
 		
 		
+		
 
 	}
 
